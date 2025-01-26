@@ -1,0 +1,57 @@
+[personal]
+first_name = "Simon"
+last_name = "Bélier"
+profile_image = "portrait.png"
+language = "en"
+include_icons = true
+
+[personal.info]
+address = "5 Villa Auguste Vermorel, 91000 Evry-courcouronnes"
+telephone = "0787260281"
+email = "simon.belier@gmail.com"
+linkedin = "linkedin.com/in/simon-bélier"
+github = "github.com/Big-Ouden"
+
+[personal.icon]
+address = "house"
+telephone = "phone"
+email = "envelope"
+linkedin = "linkedin"
+github = "github"
+homepage = "globe"
+
+[section.icon]
+education = "graduation-cap"
+experience = "briefcase"
+languages = "language"
+other_experience = "wrench"
+personal = "brain"
+profile = "id-card"
+references = "users"
+skills = "cogs"
+
+# To change fill_color to white, replace value with "#ffffff"
+[layout]
+fill_color = "#f4f1eb"
+paper_size = "a4"
+accent_color = "#d4d2cc"
+# deafult value is 71%
+left_pane_width = "71%"
+
+[layout.text]
+font = "Hanken Grotesk"
+size = "10pt"
+cover_letter_size = "11pt"
+
+[layout.text.color]
+light = "#ededef"
+medium = "#78787e"
+dark = "#3c3c42"
+
+[language.en]
+subtitle = "Étudiant-ingénieur orienté HPC et DevOps, avec un intérêt marqué pour l’optimisation des systèmes et des infrastructures à grande échelle."
+[language.es]
+subtitle = "Ingeniero de software con un talento para soluciones de IA amigables para humanos"
+
+[import]
+path = "@preview/grotesk-cv:1.0.1"
